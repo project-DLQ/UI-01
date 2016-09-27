@@ -13,6 +13,9 @@
 		18ED4FB41D9A38F10034F666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED4FB21D9A38F10034F666 /* Main.storyboard */; };
 		18ED4FB61D9A38F10034F666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ED4FB51D9A38F10034F666 /* Assets.xcassets */; };
 		18ED4FB91D9A38F10034F666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED4FB71D9A38F10034F666 /* LaunchScreen.storyboard */; };
+		18ED4FC11D9A3AFB0034F666 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED4FC01D9A3AFB0034F666 /* Icon-152.png */; };
+		18ED4FC51D9A3C200034F666 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED4FC41D9A3C200034F666 /* TestController.m */; };
+		18ED4FC71D9A3C9C0034F666 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED4FC61D9A3C9C0034F666 /* Icon-144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		18ED4FB51D9A38F10034F666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18ED4FB81D9A38F10034F666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18ED4FBA1D9A38F10034F666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ED4FC01D9A3AFB0034F666 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		18ED4FC31D9A3C200034F666 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		18ED4FC41D9A3C200034F666 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		18ED4FC61D9A3C9C0034F666 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		18ED4FA81D9A38F10034F666 /* 01-文件拖拽 */ = {
 			isa = PBXGroup;
 			children = (
+				18ED4FC21D9A3C030034F666 /* Test */,
 				18ED4FAC1D9A38F10034F666 /* AppDelegate.h */,
 				18ED4FAD1D9A38F10034F666 /* AppDelegate.m */,
 				18ED4FAF1D9A38F10034F666 /* ViewController.h */,
@@ -74,9 +82,20 @@
 		18ED4FA91D9A38F10034F666 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18ED4FC01D9A3AFB0034F666 /* Icon-152.png */,
 				18ED4FAA1D9A38F10034F666 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18ED4FC21D9A3C030034F666 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				18ED4FC61D9A3C9C0034F666 /* Icon-144.png */,
+				18ED4FC31D9A3C200034F666 /* TestController.h */,
+				18ED4FC41D9A3C200034F666 /* TestController.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18ED4FB91D9A38F10034F666 /* LaunchScreen.storyboard in Resources */,
+				18ED4FC11D9A3AFB0034F666 /* Icon-152.png in Resources */,
 				18ED4FB61D9A38F10034F666 /* Assets.xcassets in Resources */,
+				18ED4FC71D9A3C9C0034F666 /* Icon-144.png in Resources */,
 				18ED4FB41D9A38F10034F666 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +175,7 @@
 				18ED4FB11D9A38F10034F666 /* ViewController.m in Sources */,
 				18ED4FAE1D9A38F10034F666 /* AppDelegate.m in Sources */,
 				18ED4FAB1D9A38F10034F666 /* main.m in Sources */,
+				18ED4FC51D9A3C200034F666 /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,14 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"Icon-152" withExtension:@"png"];
+    NSLog(@"%@",url);
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
